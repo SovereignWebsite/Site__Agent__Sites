@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What you can do, sites.b</title>
+<meta name="description" content="Every public Sovereign Website the Factory knows about: live, under construction, placeholder or coming.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; object-src 'none'; base-uri 'none'">
+<style>
+:root{--bg:#f7f7f5;--fg:#1d1d1b;--muted:#5f5f5a;--line:#deded8;--card:#fff;--accent:#0b5cad}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ededea;--muted:#a8a8a2;--line:#33332f;--card:#1c1c1a;--accent:#7ab8ff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,sans-serif}
+main{max-width:44rem;margin:0 auto;padding:10vh 1rem 4rem}.mark{font:600 .78rem/1 system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.1;margin:.6rem 0 1rem;overflow-wrap:anywhere}p{color:var(--muted)}a{color:var(--accent)}
+.card{margin-top:2rem;padding:1.2rem;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+code,pre{font:13px/1.5 ui-monospace,monospace}pre{white-space:pre-wrap;overflow-wrap:anywhere;margin:.5rem 0 0}
+h2{font-size:1.25rem;margin:2.6rem 0 .4rem}ol,ul{padding-left:1.2rem;color:var(--muted)}li{margin:.35rem 0}li strong{color:var(--fg)}table{width:100%;border-collapse:collapse;font-size:.95rem}td,th{text-align:left;padding:.4rem .5rem .4rem 0;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--fg)}td{color:var(--muted)}.tbl{overflow-x:auto}
+footer{margin-top:3rem;font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<div class="mark"><a href="../">sites.b</a> / yours</div>
+<h1>What you can do on each site</h1>
+<p>Every site sites.b keeps is left in a state its owner can carry on without waiting for an agent. Each one is static files in <code>site/</code> on the <code>dev</code> branch: edit them on GitHub in the browser, or ask your own Claude (each site's <code>/agents/</code> page says how). The checks run on every change and publish within minutes.</p>
+<div class="tbl"><table>
+<thead><tr><th>Site</th><th>Repository</th><th>What you can do there</th></tr></thead>
+<tbody><tr><td><a href="https://dinis-cruz.presentations.sovereignweb.site/">Presentations</a></td><td><a href="https://github.com/SovereignWebsite/Site__Presentations__Dinis-Cruz/tree/dev/site">Site__Presentations__Dinis-Cruz</a></td><td>Add a presentation: upload a PDF into a new folder in site/presentations on dev; it lists itself. Steps at <a href="https://dinis-cruz.presentations.sovereignweb.site/add/">/add/</a>.</td></tr><tr><td><a href="https://car-buyer.tool.sovereignweb.site/">Car buyer</a></td><td><a href="https://github.com/SovereignWebsite/Site__Tool__Car-Buyer/tree/dev/site">Site__Tool__Car-Buyer</a></td><td>Look it over and remove the draft notice from site/index.html (one line), or ask your Claude to. Edit any page in site/; every fact has its source beside it.</td></tr><tr><td><a href="https://pipeline-demo.demo.sovereignweb.site/workflow/">The workflow page</a></td><td><a href="https://github.com/SovereignWebsite/Site__Demo__Pipeline-Demo/tree/dev/site">Site__Demo__Pipeline-Demo</a></td><td>Change the price or partner lines in site/workflow/index.html when you decide them; the rest of the site documents the pipeline.</td></tr><tr><td><a href="https://whois.tool.sovereignweb.site/">Whois</a></td><td><a href="https://github.com/SovereignWebsite/Site__Tool__Whois/tree/dev/site">Site__Tool__Whois</a></td><td>Use it; the list of registry servers updates with tools/update-rdap-hosts.py.</td></tr><tr><td><a href="https://google-maps.sovereignwebsite.site/">Directions (Google Maps)</a></td><td><a href="https://github.com/SovereignWebsite/site__google-maps/tree/dev/site">site__google-maps</a></td><td>Add your own Maps key and budget when you want it live; until then it explains itself.</td></tr><tr><td><a href="https://sites.agents.sovereignweb.site/">This agent site</a></td><td><a href="https://github.com/SovereignWebsite/Site__Agent__Sites/tree/dev/site">Site__Agent__Sites</a></td><td>Read the register and the queue; edit either page.</td></tr></tbody></table></div>
+<p>Nothing here waits on you: if you do none of it, the sites stay as they are, live and correct.</p>
+</main>
+</body>
+</html>
