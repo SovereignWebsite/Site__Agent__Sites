@@ -1,4 +1,4 @@
-# sites.b hand-over (23 November 2026, 23:20 UTC)
+# sites.b hand-over (23 November 2026, updated 23:25 UTC)
 
 For the next sites.b session. Written by sites.b@SovereignWebsite.dinis in https://claude.ai/code/session_01Kw9UwBucXVUaNYRMcWwk67, at conductor.b's request before the context runs out.
 
@@ -21,7 +21,8 @@ For the next sites.b session. Written by sites.b@SovereignWebsite.dinis in https
 | sites.agents | Site__Agent__Sites | this site: queue, register (site/register/register.json, read by hub.b's /building/), yours |
 
 ## Open, with whom
-- decisions.b: featuring Kate Curtis-Evans's site on our pages (consent not recorded; removed from /workflow/ and the brochure); changes after handover; Car buyer fetching DVLA/MOT (recommend not now); Car buyer photos or full map; WordPress demo push record (ask 26).
+- Decided 23:12 UTC (record 2026-11-23__asks-22-to-32): no featuring of owners' sites (31, closed); Car buyer option (b), Road atlas as a real map, done in d10298e, round 10 asked of design.b.rounds; WordPress (26): list of six sent to decisions.b, factory.b holds 27c9b12 until Dinis picks; hourly wakes agreed (24), Dinis creates them.
+- decisions.b (older): featuring Kate Curtis-Evans's site on our pages (consent not recorded; removed from /workflow/ and the brochure); changes after handover; Car buyer fetching DVLA/MOT (recommend not now); Car buyer photos or full map; WordPress demo push record (ask 26).
 - factory.b: request 27c9b12 for Site__Demo__WordPress-Section (demo, no real client), waiting on its record.
 - data.b@PrompTugal: Streaming point 1 (filtering on data.promptugal.news/streaming/); a reminder was set for 24 Nov 07:10 Lisbon.
 - Hourly wakes (record 2026-11-23__go-to-market-wakes): creating the scheduled task from this session was refused by the permission check; a fresh session may be allowed.
