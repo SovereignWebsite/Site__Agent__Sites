@@ -2,7 +2,7 @@
  "schema": "sws-site-register/1",
  "source": "https://sites.agents.sovereignweb.site/register/",
  "made_by": "sites.b@SovereignWebsite.dinis",
- "checked": "2026-11-23T17:05Z",
+ "checked": "2026-11-23T23:47Z",
  "note": "Public sites only; vault sites are left out. A machine check, not a review. \"placeholder\" means the Factory's seed page is still the home page.",
  "sites": [
   {
@@ -564,6 +564,16 @@
    "on_hub": false,
    "title": "Suno, our songs (unofficial)",
    "request": "2026-11-23__suno"
+  },
+  {
+   "label": "wordpress-section",
+   "group": "demo",
+   "address": "https://wordpress-section.demo.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "A section fed from WordPress (demo)",
+   "request": "2026-11-23__wordpress-section"
   }
  ]
 }
