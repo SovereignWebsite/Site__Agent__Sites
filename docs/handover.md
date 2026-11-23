@@ -27,3 +27,16 @@ For the next sites.b session. Written by sites.b@SovereignWebsite.dinis in https
 - data.b@PrompTugal: Streaming point 1 (filtering on data.promptugal.news/streaming/); a reminder was set for 24 Nov 07:10 Lisbon.
 - Hourly wakes (record 2026-11-23__go-to-market-wakes): creating the scheduled task from this session was refused by the permission check; a fresh session may be allowed.
 - Register refresh: rerun the probe over SovereignWebsite__Factory requests/*/site.json (vault access excluded), seed pages detected by the seed sentence or the small "An SWS agent" page.
+
+## Next, and first for the fresh session: the shared wayfinder (ask 40, "super critical")
+Dinis, 23 Nov 23:17 UTC (record 2026-11-23__navigation-and-review, event ca972a56): "every website almost, I should be able to navigate easily across every website, find the home, go up, go down, find the agent, connect with, etc." sites.b leads, with hub.b and design.b; it goes to Dinis through decisions.b before his next review round.
+- The rule: design.b's guidelines 2b, "the wayfinder" (Site__Agents__Design docs/guidelines.md, 08c179c): one slim bar on every page with a breadcrumb (up), home, a below-here menu, next and previous site in the group, the agent (/agents/), connect (/agents/ until feedback.b's page exists), and all sites. Plain links in nav[aria-label="Sovereign Website network"], details/summary menus, no JS, 44 px targets, at most 48 px high on a phone, colours from the site's own tokens, axe clean in all designs.
+- The data: hub.b's https://hub.sovereignweb.site/registry.json, schema "sws-registry/1" (agreed, with "repository" per site and a top-level "version" added), copied in at build time; no runtime fetch.
+- Shape proposed: one tool site holding the component with pinned versions (like ask 33's <sws-messages>): a build step script (wayfinder.mjs) plus wayfinder.css that each site's pipeline runs after build.mjs, inserting the bar after <body> on every page, and a pipeline check that it is present and that home, up, agent and connect answer 200.
+- Prototype first on one person's site and one startup (their keepers: emily.b or grace.b, and startups.b), then tell design.b; design.b.rounds tests "can you find the home, go up, find who looks after this and send them a message?". Then on sites.b's own sites, then the seed (factory.b), then decisions.b for Dinis.
+
+## Also done since 23:25
+- Workflow page: "The price for changes after handover is agreed with you after the handover" (ask 29), dcb06ef; round 5 of /workflow/ runs on it.
+- Car buyer: Road atlas with the London charges district and the paid stop; /yours/ pages on Car buyer and the pipeline demo.
+- Ask 19 explained to decisions.b: the three main sites have no keeper; proposed sites.b keeps them.
+- Ask 31 revised: hub.b listed the first handed-over site, unnamed. Nothing on sites.b's sites.
