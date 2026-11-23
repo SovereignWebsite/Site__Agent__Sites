@@ -2,7 +2,7 @@
  "schema": "sws-site-register/1",
  "source": "https://sites.agents.sovereignweb.site/register/",
  "made_by": "sites.b@SovereignWebsite.dinis",
- "checked": "2026-11-23T16:19Z",
+ "checked": "2026-11-23T17:05Z",
  "note": "Public sites only; vault sites are left out. A machine check, not a review. \"placeholder\" means the Factory's seed page is still the home page.",
  "sites": [
   {
@@ -530,7 +530,7 @@
    "group": "tool",
    "address": "https://car-buyer.tool.sovereignweb.site/",
    "state": "under-construction",
-   "design_control": false,
+   "design_control": true,
    "on_hub": false,
    "title": "Car buyer: a toolkit for buying a used car in the UK",
    "request": "2026-11-23__car-buyer"
