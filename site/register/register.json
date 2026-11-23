@@ -1,0 +1,529 @@
+{
+ "schema": "sws-site-register/1",
+ "source": "https://sites.agents.sovereignweb.site/register/",
+ "made_by": "sites.b@SovereignWebsite.dinis",
+ "checked": "2026-11-23T11:58Z",
+ "note": "Public sites only; vault sites are left out. A machine check, not a review.",
+ "sites": [
+  {
+   "label": "accountant",
+   "group": "agents",
+   "address": "https://accountant.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": false,
+   "on_hub": false,
+   "title": "accountant.b",
+   "request": "2026-11-20__accountant"
+  },
+  {
+   "label": "agentic-cells",
+   "group": "startups",
+   "address": "https://agentic-cells.startups.sovereignweb.site/",
+   "state": "live",
+   "design_control": false,
+   "on_hub": true,
+   "title": "AgentiCCells: The Cell",
+   "request": "2026-11-20__agentic-cells"
+  },
+  {
+   "label": "agents",
+   "group": "",
+   "address": "https://agents.agents.sovereignweb.site/",
+   "state": "coming",
+   "design_control": false,
+   "on_hub": false,
+   "title": "",
+   "request": "2026-11-20__agents"
+  },
+  {
+   "label": "conductor",
+   "group": "agents",
+   "address": "https://conductor.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": false,
+   "on_hub": false,
+   "title": "conductor.b",
+   "request": "2026-11-20__conductor"
+  },
+  {
+   "label": "design",
+   "group": "agents",
+   "address": "https://design.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Design for every sovereign website, design.b",
+   "request": "2026-11-20__design"
+  },
+  {
+   "label": "emily-cruz",
+   "group": "artist",
+   "address": "https://emily-cruz.artist.sovereignweb.site/",
+   "state": "live",
+   "design_control": true,
+   "on_hub": true,
+   "title": "Emily Cruz",
+   "request": "2026-11-20__emily-cruz"
+  },
+  {
+   "label": "factory",
+   "group": "agents",
+   "address": "https://factory.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": false,
+   "on_hub": false,
+   "title": "factory.b",
+   "request": "2026-11-20__factory"
+  },
+  {
+   "label": "google-maps",
+   "group": "demo",
+   "address": "https://google-maps.sovereignwebsite.site/",
+   "state": "live",
+   "design_control": false,
+   "on_hub": true,
+   "title": "",
+   "request": "2026-11-20__google-maps"
+  },
+  {
+   "label": "grace-farrell",
+   "group": "artist",
+   "address": "https://grace-farrell.artist.sovereignweb.site/",
+   "state": "live",
+   "design_control": true,
+   "on_hub": true,
+   "title": "Grace Farrell",
+   "request": "2026-11-20__grace-farrell"
+  },
+  {
+   "label": "hub",
+   "group": "agents",
+   "address": "https://hub.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": false,
+   "on_hub": false,
+   "title": "hub.b",
+   "request": "2026-11-20__hub"
+  },
+  {
+   "label": "kate-curtis-evans",
+   "group": "founder",
+   "address": "https://kate-curtis-evans.founder.sovereignweb.site/",
+   "state": "live",
+   "design_control": true,
+   "on_hub": true,
+   "title": "Kate Curtis-Evans, Founder, Audio Genius",
+   "request": "2026-11-20__kate-curtis-evans"
+  },
+  {
+   "label": "library",
+   "group": "agents",
+   "address": "https://library.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": false,
+   "on_hub": false,
+   "title": "The SWS library",
+   "request": "2026-11-20__library"
+  },
+  {
+   "label": "migration",
+   "group": "agents",
+   "address": "https://migration.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": false,
+   "on_hub": false,
+   "title": "migration.b",
+   "request": "2026-11-20__migration"
+  },
+  {
+   "label": "mistral",
+   "group": "provider",
+   "address": "https://mistral.provider.sovereignweb.site/",
+   "state": "live",
+   "design_control": true,
+   "on_hub": true,
+   "title": "Mistral, a European brain for a sovereign we",
+   "request": "2026-11-20__mistral"
+  },
+  {
+   "label": "pipeline-demo",
+   "group": "demo",
+   "address": "https://pipeline-demo.demo.sovereignweb.site/",
+   "state": "live",
+   "design_control": false,
+   "on_hub": true,
+   "title": "A site from one request, Pipeline demo",
+   "request": "2026-11-20__pipeline-demo"
+  },
+  {
+   "label": "risk-mandate",
+   "group": "startups",
+   "address": "https://risk-mandate.startups.sovereignweb.site/",
+   "state": "live",
+   "design_control": false,
+   "on_hub": true,
+   "title": "RiskMandate: The Gap",
+   "request": "2026-11-20__risk-mandate"
+  },
+  {
+   "label": "sarah-cruz",
+   "group": "designer",
+   "address": "https://sarah-cruz.designer.sovereignweb.site/",
+   "state": "live",
+   "design_control": true,
+   "on_hub": true,
+   "title": "Sarah Cruz, Creative Director and Designer",
+   "request": "2026-11-20__sarah-cruz"
+  },
+  {
+   "label": "sgit",
+   "group": "startups",
+   "address": "https://sgit.startups.sovereignweb.site/",
+   "state": "live",
+   "design_control": false,
+   "on_hub": true,
+   "title": "sgit: Identity: sgit.ai",
+   "request": "2026-11-20__sgit"
+  },
+  {
+   "label": "sites",
+   "group": "agents",
+   "address": "https://sites.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": true,
+   "on_hub": false,
+   "title": "sites.b",
+   "request": "2026-11-20__sites"
+  },
+  {
+   "label": "sovereign-website",
+   "group": "startups",
+   "address": "https://sovereign-website.startups.sovereignweb.site/",
+   "state": "live",
+   "design_control": true,
+   "on_hub": true,
+   "title": "Sovereign Website: The Showroom",
+   "request": "2026-11-20__sovereign-website"
+  },
+  {
+   "label": "the-cyber-boardroom",
+   "group": "startups",
+   "address": "https://the-cyber-boardroom.startups.sovereignweb.site/",
+   "state": "live",
+   "design_control": false,
+   "on_hub": true,
+   "title": "The Cyber Boardroom: Identity: The Cyber Boa",
+   "request": "2026-11-20__the-cyber-boardroom"
+  },
+  {
+   "label": "weather-demo",
+   "group": "demo",
+   "address": "https://weather-demo.demo.sovereignweb.site/",
+   "state": "coming",
+   "design_control": false,
+   "on_hub": false,
+   "title": "",
+   "request": "2026-11-20__weather-demo"
+  },
+  {
+   "label": "whois",
+   "group": "tool",
+   "address": "https://whois.tool.sovereignweb.site/",
+   "state": "live",
+   "design_control": false,
+   "on_hub": true,
+   "title": "Whois: who holds a domain or IP address",
+   "request": "2026-11-20__whois"
+  },
+  {
+   "label": "dinis-cruz",
+   "group": "cv",
+   "address": "https://dinis-cruz.cv.sovereignweb.site/",
+   "state": "coming",
+   "design_control": false,
+   "on_hub": false,
+   "title": "",
+   "request": "2026-11-21__dinis-cruz"
+  },
+  {
+   "label": "south-beacon",
+   "group": "talent",
+   "address": "https://south-beacon.talent.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": true,
+   "on_hub": false,
+   "title": "South Beacon",
+   "request": "2026-11-21__south-beacon"
+  },
+  {
+   "label": "streaming",
+   "group": "tool",
+   "address": "https://streaming.tool.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": true,
+   "on_hub": false,
+   "title": "Streaming",
+   "request": "2026-11-21__streaming"
+  },
+  {
+   "label": "aws",
+   "group": "platform",
+   "address": "https://aws.platform.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "AWS Platform Sovereign Website",
+   "request": "2026-11-22__aws"
+  },
+  {
+   "label": "cartographer",
+   "group": "agents",
+   "address": "https://cartographer.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Cartographer",
+   "request": "2026-11-22__cartographer"
+  },
+  {
+   "label": "counsel",
+   "group": "agents",
+   "address": "https://counsel.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Counsel",
+   "request": "2026-11-22__counsel"
+  },
+  {
+   "label": "decisions",
+   "group": "agents",
+   "address": "https://decisions.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Decisions",
+   "request": "2026-11-22__decisions"
+  },
+  {
+   "label": "dns",
+   "group": "tool",
+   "address": "https://dns.tool.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": true,
+   "on_hub": false,
+   "title": "DNS",
+   "request": "2026-11-22__dns"
+  },
+  {
+   "label": "donna-freed",
+   "group": "author",
+   "address": "https://donna-freed.author.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": true,
+   "on_hub": false,
+   "title": "Donna Freed",
+   "request": "2026-11-22__donna-freed"
+  },
+  {
+   "label": "github",
+   "group": "platform",
+   "address": "https://github.platform.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": true,
+   "on_hub": false,
+   "title": "GitHub",
+   "request": "2026-11-22__github"
+  },
+  {
+   "label": "helm",
+   "group": "agents",
+   "address": "https://helm.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Helm",
+   "request": "2026-11-22__helm"
+  },
+  {
+   "label": "holacracy",
+   "group": "agents",
+   "address": "https://holacracy.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Holacracy",
+   "request": "2026-11-22__holacracy"
+  },
+  {
+   "label": "iac",
+   "group": "agents",
+   "address": "https://iac.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": false,
+   "on_hub": false,
+   "title": "IaC",
+   "request": "2026-11-22__iac"
+  },
+  {
+   "label": "instagram",
+   "group": "platform",
+   "address": "https://instagram.platform.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": true,
+   "on_hub": false,
+   "title": "Instagram",
+   "request": "2026-11-22__instagram"
+  },
+  {
+   "label": "landscape",
+   "group": "agents",
+   "address": "https://landscape.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Landscape",
+   "request": "2026-11-22__landscape"
+  },
+  {
+   "label": "maestro",
+   "group": "agents",
+   "address": "https://maestro.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Maestro",
+   "request": "2026-11-22__maestro"
+  },
+  {
+   "label": "odoo",
+   "group": "platform",
+   "address": "https://odoo.platform.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Odoo",
+   "request": "2026-11-22__odoo"
+  },
+  {
+   "label": "openrouter",
+   "group": "platform",
+   "address": "https://openrouter.platform.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "OpenRouter",
+   "request": "2026-11-22__openrouter"
+  },
+  {
+   "label": "owasp",
+   "group": "platform",
+   "address": "https://owasp.platform.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "OWASP",
+   "request": "2026-11-22__owasp"
+  },
+  {
+   "label": "pybot",
+   "group": "tool",
+   "address": "https://pybot.tool.sovereignweb.site/",
+   "state": "coming",
+   "design_control": false,
+   "on_hub": false,
+   "title": "",
+   "request": "2026-11-22__pybot"
+  },
+  {
+   "label": "sherpa",
+   "group": "agents",
+   "address": "https://sherpa.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Sherpa",
+   "request": "2026-11-22__sherpa"
+  },
+  {
+   "label": "slides",
+   "group": "agents",
+   "address": "https://slides.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Slides",
+   "request": "2026-11-22__slides"
+  },
+  {
+   "label": "strategy",
+   "group": "agents",
+   "address": "https://strategy.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Strategy",
+   "request": "2026-11-22__strategy"
+  },
+  {
+   "label": "studio",
+   "group": "agents",
+   "address": "https://studio.agents.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Studio",
+   "request": "2026-11-22__studio"
+  },
+  {
+   "label": "synthetic-users",
+   "group": "agents",
+   "address": "https://synthetic-users.agents.sovereignweb.site/",
+   "state": "placeholder",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Synthetic-Users",
+   "request": "2026-11-22__synthetic-users"
+  },
+  {
+   "label": "wardley-maps",
+   "group": "frameworks",
+   "address": "https://wardley-maps.frameworks.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Wardley Maps",
+   "request": "2026-11-22__wardley-maps"
+  },
+  {
+   "label": "wikipedia",
+   "group": "platform",
+   "address": "https://wikipedia.platform.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "Wikipedia",
+   "request": "2026-11-22__wikipedia"
+  },
+  {
+   "label": "wordpress",
+   "group": "tool",
+   "address": "https://wordpress.tool.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": false,
+   "on_hub": false,
+   "title": "WordPress",
+   "request": "2026-11-22__wordpress"
+  },
+  {
+   "label": "youtube",
+   "group": "platform",
+   "address": "https://youtube.platform.sovereignweb.site/",
+   "state": "under-construction",
+   "design_control": true,
+   "on_hub": false,
+   "title": "YouTube",
+   "request": "2026-11-22__youtube"
+  }
+ ]
+}
