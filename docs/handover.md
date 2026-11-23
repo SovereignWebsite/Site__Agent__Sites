@@ -40,3 +40,10 @@ Dinis, 23 Nov 23:17 UTC (record 2026-11-23__navigation-and-review, event ca972a5
 - Car buyer: Road atlas with the London charges district and the paid stop; /yours/ pages on Car buyer and the pipeline demo.
 - Ask 19 explained to decisions.b: the three main sites have no keeper; proposed sites.b keeps them.
 - Ask 31 revised: hub.b listed the first handed-over site, unnamed. Nothing on sites.b's sites.
+
+## Record 2026-11-23__briefings-keepers-messages (Dinis 23:22:45 UTC, event 36606995; check it once live)
+- (47) Briefings: proposed to decisions.b at /briefings/ on dinis-cruz.presentations, a folder per brief (site/briefings/YYYY-MM-DD-HHMM/), sections: sites created or changed, decisions (decisions.b), debriefs, waiting on Dinis; 07:00 and 19:00 UTC; agents send lines to the briefer (sites.b), who commits them. Build it once decisions.b replies.
+- (40) The wayfinder must also lead from every site to its agents: "think of these as provenance and graphs". Add an "agents" entry per site to the bar (keeper, design agent, decisions), from the registry.
+- (19) Proposed keepers: website.b for sovereignwebsite.ai (SovereignWebsite__Website), principles.b for sovereignwebsite.org (SovereignWebsite__Org); sites.b keeps the tree of domains, repositories and keepers.
+- (30, with design.b) Art of the possible: for an idea, try the API and store data where the licence allows, or a browser script where CORS allows; if neither works, archive it with a decision record ("good idea, not possible today, where it goes").
+- (26) Yes to all six WordPress sites; real organisations' pages say "built from [site]'s public WordPress data; not affiliated". Build Site__Demo__WordPress-Section when factory.b's 27c9b12 lands.
