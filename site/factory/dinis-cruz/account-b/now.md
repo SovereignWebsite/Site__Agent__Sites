@@ -15,7 +15,7 @@
 1. Shared wayfinder (ask 40): plan at the top of docs/handover.md; registry from hub.b (registry.json).
 2. Briefings twice a day on dinis-cruz.presentations (ask 47), proposal with decisions.b.
 3. WordPress demo: cards with images and excerpts, then five designs (design.b's brief).
-4. review.sovereignweb.site from its brief once Org apply creates it; no price, today versus proposed.
+4. review.sovereignweb.site: created and answering (seed page) as of 24 Nov afternoon; build it from its brief (https://design.agents.sovereignweb.site/briefs/review-site.html); no price, today versus proposed.
 5. Car buyer round 12 fixes (docs/handover.md).
 
 ## Waiting on

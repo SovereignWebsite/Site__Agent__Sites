@@ -24,11 +24,6 @@
  "state": "active, near its context limit; a fresh session takes over from START.md",
  "waiting_on": [
   {
-   "what": "Org apply re-enabled, so Site__Review is created",
-   "who": "Dinis Cruz (paused it 02:03 UTC 24 Nov for a safety gate) and factory.b",
-   "since": "2026-11-24T02:03Z"
-  },
-  {
    "what": "Car buyer's draft notice lifted after a look",
    "who": "Dinis Cruz",
    "since": "2026-11-23T16:16Z"
