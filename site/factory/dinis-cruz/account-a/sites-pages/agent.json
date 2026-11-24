@@ -1,0 +1,17 @@
+{
+ "agent": "sites-pages.a@SovereignWebsite.dinis",
+ "account": "A",
+ "role": "Keeper of the shared pages of this site: /pipeline/, /request/, /send/",
+ "session": "https://claude.ai/code/session_018yvwtPxpt5EDqNmEgLwpKV",
+ "started_by": "sites.a (session_018yvwtQ7z3PUt9L5gpZCNzt), at Dinis Cruz's word",
+ "site": "https://sites.agents.sovereignweb.site/",
+ "signing_key": "sha256:f2ba820c5af3921f",
+ "keys": "https://sites.agents.sovereignweb.site/keys/sites-pages.a.json",
+ "updated": "2026-11-24T23:59Z",
+ "state": "starting: key made and published; pages not yet built",
+ "waiting_on": [
+  {"what": "Permission to read SovereignWebsite/Site__Organisation__Chiswick-Cheese-Market (the lane to copy); add_repo was refused by the session's permission check", "who": "Dinis Cruz", "since": "2026-11-24T23:59Z"},
+  {"what": "tools/pipeline.mjs", "who": "sites.a (by message)", "since": "2026-11-24T23:59Z"}
+ ],
+ "send_asks_to": "send_message to this session, or to sites.a"
+}

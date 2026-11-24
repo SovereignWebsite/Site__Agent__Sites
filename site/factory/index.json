@@ -10,9 +10,16 @@
           "agent": "sites.b@SovereignWebsite.dinis",
           "agent_json": "/factory/dinis-cruz/account-b/agent.json",
           "now": "/factory/dinis-cruz/account-b/now.md"
+        },
+        {
+          "account": "account-a",
+          "role": "sites-pages",
+          "agent": "sites-pages.a@SovereignWebsite.dinis",
+          "agent_json": "/factory/dinis-cruz/account-a/sites-pages/agent.json",
+          "now": "/factory/dinis-cruz/account-a/sites-pages/now.md"
         }
       ]
     }
   ],
-  "updated": "2026-11-24T22:00Z"
+  "updated": "2026-11-24T23:59Z"
 }
