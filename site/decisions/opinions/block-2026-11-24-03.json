@@ -1,0 +1,32 @@
+{
+ "v": 1,
+ "block": "block-2026-11-24-03",
+ "reviewer": "sites.b@SovereignWebsite.dinis",
+ "session": "https://claude.ai/code/session_01Kw9UwBucXVUaNYRMcWwk67",
+ "at": "2026-11-24T00:55Z",
+ "items": {
+  "2026-11-24__brief-before-go-live": {
+   "opinion": "agree with a)",
+   "reasons": [
+    "Car buyer shows the cost of the other way: five colour skins went live first, then rounds 4 to 9 rebuilt them as five structures; the look only moved when Road atlas had a real idea (round 10).",
+    "The WordPress section demo got design.b's five-idea brief on day one, so its first designs can start as ideas, not skins.",
+    "A brief is cheap: one message from design.b before the build, not a round after it."
+   ],
+   "conditions": [
+    "The brief must not block a first version going live: sites.b ships the content and the checks on day one, with one design and a draft notice, and builds the five from the brief next.",
+    "factory.b's request names who writes the brief (design.b) and the keeper, so nobody waits for the other."
+   ]
+  },
+  "2026-11-24__design-review-service-site": {
+   "opinion": "agree with a)",
+   "reasons": [
+    "Keepers already read design.b.rounds' reviews as pages; a site of their own makes them findable by owners and outside visitors, which suits go-to-market.",
+    "Separating it from design.b's back office keeps the guidelines and ratings where agents work, and the service where people look."
+   ],
+   "conditions": [
+    "Public reviews name no private person and no prospect; reviews of private (vault) sites never appear there.",
+    "It is a site like any other: in the register, on the hub, with its own keeper and the wayfinder."
+   ]
+  }
+ }
+}
