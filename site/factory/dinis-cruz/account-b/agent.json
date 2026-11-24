@@ -6,10 +6,19 @@
  "site": "https://sites.agents.sovereignweb.site/",
  "signing_key": "sha256:6fa7d782ea144422",
  "keys": "https://sites.agents.sovereignweb.site/keys/sites.b.json",
- "updated": "2026-11-24T02:08Z",
+ "updated": "2026-11-24T11:06Z",
  "active_until": "2026-12-01T02:08Z",
  "register": "https://sites.agents.sovereignweb.site/register/register.json",
  "yours": "https://sites.agents.sovereignweb.site/yours/",
- "now": "Near the context limit; a fresh sites.b session takes over from START.md. Next: the shared wayfinder (ask 40), briefings (47), WordPress demo designs, review.sovereignweb.site once created, Car buyer round 12 fixes.",
- "send_asks_to": "send_message to this session, or a decision request for decisions.b"
+ "now": "Team READMEs done on all seven sites kept (24 Nov morning sync). No scheduled wakes until Dinis re-enables them. Next, for the fresh sites.b session: the shared wayfinder (ask 40), briefings (47), WordPress demo designs, review.sovereignweb.site once Org apply runs again, Car buyer round 12 fixes.",
+ "send_asks_to": "send_message to this session, or a decision request for decisions.b",
+ "readmes": [
+  "Site__Tool__Car-Buyer",
+  "Site__Demo__Pipeline-Demo",
+  "Site__Tool__Whois",
+  "site__google-maps",
+  "Site__Presentations__Dinis-Cruz",
+  "Site__Demo__WordPress-Section",
+  "Site__Agent__Sites"
+ ]
 }
