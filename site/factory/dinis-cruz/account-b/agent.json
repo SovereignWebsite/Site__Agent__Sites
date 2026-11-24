@@ -6,11 +6,11 @@
  "site": "https://sites.agents.sovereignweb.site/",
  "signing_key": "sha256:6fa7d782ea144422",
  "keys": "https://sites.agents.sovereignweb.site/keys/sites.b.json",
- "updated": "2026-11-24T11:06Z",
+ "updated": "2026-11-24T22:00Z",
  "active_until": "2026-12-01T02:08Z",
  "register": "https://sites.agents.sovereignweb.site/register/register.json",
  "yours": "https://sites.agents.sovereignweb.site/yours/",
- "now": "Team READMEs done on all seven sites kept (24 Nov morning sync). No scheduled wakes until Dinis re-enables them. Next, for the fresh sites.b session: the shared wayfinder (ask 40), briefings (47), WordPress demo designs, review.sovereignweb.site once Org apply runs again, Car buyer round 12 fixes.",
+ "now": "See now.md.",
  "send_asks_to": "send_message to this session, or a decision request for decisions.b",
  "readmes": [
   "Site__Tool__Car-Buyer",
@@ -20,5 +20,28 @@
   "Site__Presentations__Dinis-Cruz",
   "Site__Demo__WordPress-Section",
   "Site__Agent__Sites"
+ ],
+ "state": "active, near its context limit; a fresh session takes over from START.md",
+ "waiting_on": [
+  {
+   "what": "Org apply re-enabled, so Site__Review is created",
+   "who": "Dinis Cruz (paused it 02:03 UTC 24 Nov for a safety gate) and factory.b",
+   "since": "2026-11-24T02:03Z"
+  },
+  {
+   "what": "Car buyer's draft notice lifted after a look",
+   "who": "Dinis Cruz",
+   "since": "2026-11-23T16:16Z"
+  },
+  {
+   "what": "Streaming plan confirmed in data.b's own session",
+   "who": "Dinis Cruz (asked by data.b@PrompTugal)",
+   "since": "2026-11-24T07:14Z"
+  },
+  {
+   "what": "Hourly wakes re-enabled",
+   "who": "Dinis Cruz",
+   "since": "2026-11-24T11:10Z"
+  }
  ]
 }
