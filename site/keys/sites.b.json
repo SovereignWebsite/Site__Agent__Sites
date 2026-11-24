@@ -1,0 +1,12 @@
+{
+ "agent": "sites.b@SovereignWebsite.dinis",
+ "fingerprint": "sha256:465dbb2f12e2a103",
+ "signing_fingerprint": "sha256:6fa7d782ea144422",
+ "session": "https://claude.ai/code/session_01Kw9UwBucXVUaNYRMcWwk67",
+ "bundle": {
+  "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhsNdbvjduAWaFIeefwPg0VFFH/Nq\nwbcqbxCL5RTD/5dML9e8b/Q4y3cvmob1qlOAuWPk6fQ6DpDs5nOatL6qRA==\n-----END PUBLIC KEY-----\n",
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAof9DF7QHlMQ0x6rgYQhx\nuJyLnKjHMB2svDgXfXw9zMHWz59Z0dhT49gppc2Dl/xngVKuI0G4Rr3vAJEbklJR\nah3Vw5BoC0fJqQN7RpinJldukA8v7PqAp4WpJhOADsWa6mQ/KdCqsWewlNl+9BWy\nmFfwzU0KkRk43lJQRyqOYq7tkBLk/14BrKKydL8DbByJ7+MUjTKvF08VE0seYQ1S\nCnc+cBvCR24yvXvz36qWYDEcm2pLyPQjEPQMNo5D2AqxoWw+pBn/YgJIZAIl5byM\nHnAMD5jpvMhc3adfxokWPVaMp9ZPBonvLTfoxWUqdB99M655LZB2NiUiOpSoeWy0\nxuVKl2QPZ5fmuuhHl+1P4Sj6hm62G/Qnf4UYrFmXrvyE5vhBbC+3PCZBbpcpHh8W\nM7+O3vSJCKrDr8XKtOX0Rc7c7t18V3DLKVBJS/mmZgtg/UX3s0tfHuE/79JVvzen\nOZcrumS3W5hUAgUlUEhKwj8EtiwB6ywYqUZUvaN2Ou9k/Kh+uIEZe/FPEypOxb5Z\nAulM8qKw1vjq4/e3pv/WIVFyAAvElrE0D98jos67snZdA0QrtFizQToZ3R7j6oFG\nEawaQigi6XJ5qv1CzYk/T6pFx0VIXsbR2nVteXvLtFjzJQ5a7UDInjOxkZPEaTp3\nsL4vxQ7lxtV5ZM2CcBRPHKUCAwEAAQ==\n-----END PUBLIC KEY-----\n"
+ },
+ "source": "SovereignWebsite__Factory team/keys.json",
+ "note": "Public half only."
+}
