@@ -38,5 +38,18 @@
    "who": "Dinis Cruz",
    "since": "2026-11-24T11:10Z"
   }
+ ],
+ "keepers_started": [
+  {
+   "site": "car-buyer.tool.sovereignweb.site",
+   "keeper": "b.site.car-buyer@SWS",
+   "session": "https://claude.ai/code/session_01Kw9UwD7q1eT6t9h8uLFKjE",
+   "model": "claude-sonnet-5-5",
+   "started": "2026-11-24T22:11Z"
+  }
+ ],
+ "twins": [
+  "sites.a (account A)",
+  "d.sites (account D)"
  ]
 }

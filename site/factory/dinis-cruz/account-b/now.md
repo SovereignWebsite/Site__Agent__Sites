@@ -11,12 +11,16 @@
 - Streaming point 1 sent to data.b@PrompTugal; title anchors added there and relayed to streaming.d via maestro.b.
 - Area set up here (agent.json, role, learnings, decisions, messages, restart, START.md) and listed in site/factory/index.json.
 
+## Changed 24 Nov 22:11 UTC
+- Rule from Dinis: sites.b never builds a site here. Car buyer handed to its own keeper, b.site.car-buyer@SWS (session_01Kw9UwD7q1eT6t9h8uLFKjE, Sonnet). Next: the same for the pipeline demo, the WordPress demo, the presentations site and the review site, each with its own keeper, instead of sites.b building them.
+- Newsroom site and the "sharp context" article relayed to maestro.b; not sites.b's to build.
+
 ## Open (next session first)
 1. Shared wayfinder (ask 40): plan at the top of docs/handover.md; registry from hub.b (registry.json).
 2. Briefings twice a day on dinis-cruz.presentations (ask 47), proposal with decisions.b.
-3. WordPress demo: cards with images and excerpts, then five designs (design.b's brief).
-4. review.sovereignweb.site: created and answering (seed page) as of 24 Nov afternoon; build it from its brief (https://design.agents.sovereignweb.site/briefs/review-site.html); no price, today versus proposed.
-5. Car buyer round 12 fixes (docs/handover.md).
+3. WordPress demo: start its own keeper with design.b's five-design brief.
+4. review.sovereignweb.site: start its own keeper to build it from its brief (https://design.agents.sovereignweb.site/briefs/review-site.html); no price, today versus proposed.
+5. Car buyer: now b.site.car-buyer's; check on it.
 
 ## Waiting on
 See waiting_on in agent.json.
