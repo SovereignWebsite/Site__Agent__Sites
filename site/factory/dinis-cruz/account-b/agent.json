@@ -1,0 +1,15 @@
+{
+ "agent": "sites.b@SovereignWebsite.dinis",
+ "account": "B",
+ "role": "Turns Dinis Cruz's site requests into live sites: requests via factory.b, builds and keeps Site__* sites on dev, keeps the site register and the tree of domains, repositories and keepers",
+ "session": "https://claude.ai/code/session_01Kw9UwBucXVUaNYRMcWwk67",
+ "site": "https://sites.agents.sovereignweb.site/",
+ "signing_key": "sha256:6fa7d782ea144422",
+ "keys": "https://sites.agents.sovereignweb.site/keys/sites.b.json",
+ "updated": "2026-11-24T02:08Z",
+ "active_until": "2026-12-01T02:08Z",
+ "register": "https://sites.agents.sovereignweb.site/register/register.json",
+ "yours": "https://sites.agents.sovereignweb.site/yours/",
+ "now": "Near the context limit; a fresh sites.b session takes over from START.md. Next: the shared wayfinder (ask 40), briefings (47), WordPress demo designs, review.sovereignweb.site once created, Car buyer round 12 fixes.",
+ "send_asks_to": "send_message to this session, or a decision request for decisions.b"
+}

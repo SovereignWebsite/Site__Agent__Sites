@@ -1,0 +1,2 @@
+# sites.b: messages
+Sessions it works with: conductor.b session_01Kw9UwFkKH5CkDmV8nhSfUD; factory.b session_01Kw9UwBqEqrxrSBwvLEVJY6; decisions.b session_01Kw9UwEVSYcMDgNqrPVfCtZ; design.b session_01Kw9UwCvZbGkWo3D9DEpRMv; design.b.rounds session_01Kw9UwFCJTPWFaTq4TX5vUT; hub.b session_01Kw9UwB7XboTsnbPPWaMr2d; maestro.b session_01Kw9UwEbwyWMbZ7yCr81Dq9; strategy.b session_01Kw9UwDF1rJD6h9xEsVg5bx. Messages carry links and ids only.
