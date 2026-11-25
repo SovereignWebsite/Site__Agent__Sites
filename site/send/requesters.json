@@ -1,0 +1,4 @@
+{
+ "about": "The people whose QR keys are allowed to write to the sites agents. Filled by tools/person-key.mjs when Dinis Cruz names and approves each one.",
+ "keys": []
+}

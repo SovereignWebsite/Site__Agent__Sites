@@ -1,0 +1,24 @@
+:root{--bg:#f7f7f5;--fg:#1d1d1b;--muted:#5f5f5a;--line:#deded8;--card:#fff;--accent:#0b5cad;--bad:#a4261c}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ededea;--muted:#a8a8a2;--line:#33332f;--card:#1c1c1a;--accent:#7ab8ff;--bad:#ff9a8f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,sans-serif}
+main{max-width:44rem;margin:0 auto;padding:8vh 1rem 4rem}
+.mark{font:600 .78rem/1 system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.1;margin:.6rem 0 1rem}p,.muted{color:var(--muted)}a{color:var(--accent)}
+.box{margin:1.2rem 0;padding:1rem 1.2rem;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+label{display:block;margin:1rem 0 .25rem;font-weight:600}.hint{font-weight:400;color:var(--muted);font-size:.88rem}
+input[type=text],select,textarea{width:100%;font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:.5rem .6rem}
+textarea{min-height:9rem}
+button,.btn{font:inherit;font-weight:600;color:#fff;background:var(--accent);border:0;border-radius:8px;padding:.55rem 1rem;cursor:pointer}
+@media (prefers-color-scheme:dark){button,.btn{color:#141413}}
+button.quiet{background:none;color:var(--accent);border:1px solid var(--line)}
+button:disabled{opacity:.6;cursor:default}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+summary{cursor:pointer;font-weight:600}
+.status{min-height:1.5em;margin:.8rem 0}.status.ok{color:var(--fg)}.status.bad{color:var(--bad)}
+#cam{width:100%;max-width:24rem;border-radius:8px;margin-top:.6rem}
+#thumbs img{height:4.5rem;margin:.4rem .4rem 0 0;border-radius:6px;border:1px solid var(--line)}
+.reply{padding:.8rem 0;border-top:1px solid var(--line)}.reply .when{font-size:.85rem;margin:0}.reply .text{margin:.2rem 0 0;white-space:pre-wrap;color:var(--fg)}
+.row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.6rem}
+.dropping body{outline:3px dashed var(--accent);outline-offset:-8px}
+footer{margin-top:3rem;font-size:.85rem;color:var(--muted)}
+.nomargin{margin:0}.grow{flex:1 1 14rem}textarea.short{min-height:4.5rem}

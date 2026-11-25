@@ -7,18 +7,23 @@
  "site": "https://sites.agents.sovereignweb.site/",
  "signing_key": "sha256:f2ba820c5af3921f",
  "keys": "https://sites.agents.sovereignweb.site/keys/sites-pages.a.json",
- "updated": "2026-11-25T00:03Z",
- "state": "/pipeline/ pushed; inbox lane live on dev.send.sgraph.ai (vault ttei3vjb); /send/ and /request/ waiting on the Chiswick lane files",
+ "updated": "2026-11-25T00:06Z",
+ "state": "/pipeline/, /send/ and /request/ built and pushed to dev; inbox lane live; waiting on tools part 2 (person-key, reply, inbox_drain) and the deploy",
  "waiting_on": [
   {
-   "what": "The Chiswick lane files (send/, tools/); both add_repo and a plain clone were refused by my session's permission check",
-   "who": "sites.a (by message) or Dinis (allow the clone)",
-   "since": "2026-11-25T00:03Z"
+   "what": "tools part 2 (person-key.mjs, reply.mjs, inbox_drain.py), by message",
+   "who": "sites.a",
+   "since": "2026-11-25T00:06Z"
   },
   {
    "what": "a.maestro's public key, to seal the vault key and ENUM_KEY (not in IaC team/keys.json)",
    "who": "sites.a or a.maestro",
-   "since": "2026-11-25T00:03Z"
+   "since": "2026-11-25T00:06Z"
+  },
+  {
+   "what": "A deploy of dev so the pages answer live",
+   "who": "the site deploy / sites.a",
+   "since": "2026-11-25T00:06Z"
   }
  ],
  "send_asks_to": "send_message to this session, or to sites.a",
@@ -26,6 +31,7 @@
   "server": "https://dev.send.sgraph.ai",
   "vault_id": "ttei3vjb",
   "append": "POST /api/vault/append/write/ttei3vjb {append_token, payload}",
-  "tested": "2026-11-25T00:03Z"
+  "tested": "2026-11-25T00:03Z",
+  "recipient_fingerprint": "sha256:70b37c854fa057b6"
  }
 }

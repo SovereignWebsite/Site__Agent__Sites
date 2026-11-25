@@ -1,0 +1,14 @@
+{
+ "about": "Where a message to the sites agents is sent. The token can only append to this lane; the message is sealed to the keeper's public key in this file, so only the keeper can read it.",
+ "agent": "sites-pages.a@SovereignWebsite.dinis",
+ "site": "sites.agents",
+ "endpoint": "https://dev.send.sgraph.ai",
+ "vault_id": "ttei3vjb",
+ "append_token": "3b3078d15f761ac89a893b024ad467ea2790fa48a2c74b8fa15c19f93223f86e",
+ "recipient": {
+  "fingerprint": "sha256:70b37c854fa057b6",
+  "signing_fingerprint": "sha256:badeb4348cb22dac",
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAz9RKuyIsJTE4+yzJKC6X\nNUcB2My4HpsC1eZQbwBWIXXqOJkc871fp9bpwVoGImm/fmLITPdw3IYQRjhPDtAV\nnwSIuoolVMnNerJmGdxAfVF0FkbaCgzBTQWF2yAYYv6DF22KG9JRSGWomDpoBTqL\nJdnx7BF8DsrFKeRZPMd22UIVdReAz2GMakK0WRREouQOJo1D8yh/cMg+FfK9aB+M\nf1gdfiKATldLZlbikWbsItJiY6A4jHbyJQduqJ5oJ9tA4WlR6QLSZ0PjirIo/SWp\njVsbbjShbj6Wt+UGBa+ap7Cgp8QIDCRXdOsqxRk2QcT4CHpyv5blONrpwv/whv+z\nIyR3r9OEVGcjVbhrZNeH0LsRvi1nC2P3vQ8lgkD1Mj7Td+JxCEtxTSzxzJ5sdTS4\n6M5AoLlHLSpz+8AKLJietvICM42gn204aPHqFJu7Jr+mcch8grFxsldZPqc8YyxG\nYTK/oRODfZV3U6yAd4vZ/3VpfbloYsEaSXKjijGww3wYDgfrzctMbbNpo9EJxvH0\n8Sf9ponUoAasb5A3z02cqQe8Q6JrCiTAC8yQP1YnmH4IhRQIvyhIrSst8fSN0BIj\nHt49u7yLGfLS3JeXp8/j42itKwwMxpGoUqCFcocvo4UnOCHVCvQTzsXybTJgWI/t\nLTEv+ZYZY9XjhsouJgCJ+e0CAwEAAQ==\n-----END PUBLIC KEY-----\n"
+ },
+ "made": "2026-11-25"
+}
