@@ -46,6 +46,20 @@
    "session": "https://claude.ai/code/session_01Kw9UwD7q1eT6t9h8uLFKjE",
    "model": "claude-sonnet-5-5",
    "started": "2026-11-24T22:11Z"
+  },
+  {
+   "site": "lee-elle-horowitz.artist.sovereignweb.site",
+   "keeper": "b.site.lee-elle-horowitz@SWS",
+   "session": "https://claude.ai/code/session_01Kw9UwDZSNqZutb2soCwE8r",
+   "model": "claude-sonnet-5-5",
+   "started": "2026-11-25T11:49Z"
+  },
+  {
+   "site": "moving-van.business.sovereignweb.site",
+   "keeper": "b.site.moving-van@SWS",
+   "session": "https://claude.ai/code/session_01Kw9UwF697Jhhmbn9y8bSn7",
+   "model": "claude-sonnet-5-5",
+   "started": "2026-11-25T11:49Z"
   }
  ],
  "twins": [
