@@ -46,7 +46,7 @@
         const who = KR.person, name = who
         $('#req').classList.toggle('has-key', !!who)
         $('#who').textContent = who ? `Signed in as ${name} (key ...${(KR.fingerprint || '').slice(-4)})` : 'No key in this browser yet.'
-        $('#lock').hidden = !who; $('#form').hidden = !who
+        $('#lock').hidden = !who; $('#form').inert = !who; $('#form').classList.toggle('off', !who)
         $('#addkey').open = !who; $('#addkey').querySelector('summary').textContent = who ? 'Use a different key' : 'Add your key'
         if (who) showReplies(who)
     }

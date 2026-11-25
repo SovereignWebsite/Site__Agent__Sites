@@ -91,7 +91,7 @@ const STAGES = {
 };
 const section = (s) => {
   const list = out.filter((r) => r.stage === s); if (!list.length) return '';
-  return `<h2 id="${s}">${STAGES[s][0]} <span class="n">${list.length}</span></h2>\n<p>${STAGES[s][1]}</p>\n<div class="tbl"><table><thead><tr><th>Site</th><th>Address</th><th>Repository</th><th>Asked</th></tr></thead><tbody>\n${list.map((r) => `<tr><td><strong>${esc(r.title)}</strong><br><span class="k">${esc(r.group || 'no group')} · ${esc(r.kind)}${r.branch !== 'dev' ? ` · on ${esc(r.branch)}` : ''}</span></td><td>${s === 'live' || s === 'seeded' ? `<a href="https://${esc(r.address)}/">${esc(r.address)}</a>` : esc(r.address)}</td><td>${s === 'asked' || s === 'approved' ? esc(r.repository) : `<a href="${ORG}/${esc(r.repository)}">${esc(r.repository)}</a>`}</td><td>${esc(r.date)}</td></tr>`).join('\n')}\n</tbody></table></div>`;
+  return `<h2 id="${s}">${STAGES[s][0]} <span class="n">${list.length}</span></h2>\n<p>${STAGES[s][1]}</p>\n<div class="tbl"><table><thead><tr><th>Site</th><th>Address</th><th>Repository</th><th>Asked</th></tr></thead><tbody>\n${list.map((r) => `<tr><td class="site"><strong>${esc(r.title)}</strong><br><span class="k">${esc(r.group || 'no group')} · ${esc(r.kind)}${r.branch !== 'dev' ? ` · on ${esc(r.branch)}` : ''}</span></td><td class="addr">${s === 'live' || s === 'seeded' ? `<a href="https://${esc(r.address)}/">${esc(r.address)}</a>` : esc(r.address)}</td><td class="repo">${s === 'asked' || s === 'approved' ? esc(r.repository) : `<a href="${ORG}/${esc(r.repository)}">${esc(r.repository)}</a>`}</td><td class="date">${esc(r.date)}</td></tr>`).join('\n')}\n</tbody></table></div>`;
 };
 const html = `<!doctype html>
 <html lang="en-GB">
@@ -105,14 +105,18 @@ const html = `<!doctype html>
 :root{--bg:#f7f7f5;--fg:#1d1d1b;--muted:#5f5f5a;--line:#deded8;--card:#fff;--accent:#0b5cad}
 @media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ededea;--muted:#a8a8a2;--line:#33332f;--card:#1c1c1a;--accent:#7ab8ff}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,sans-serif}
-main{max-width:56rem;margin:0 auto;padding:8vh 1rem 4rem}.mark{font:600 .78rem/1 system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+main{max-width:56rem;margin:0 auto;padding:8vh 1rem 4rem}.mark{font:600 .78rem/1 system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}.mark a{display:inline-block;padding:.85rem .6rem .85rem 0;min-height:44px}
 h1{font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.1;margin:.6rem 0 1rem}p{color:var(--muted)}a{color:var(--accent)}
 h2{font-size:1.25rem;margin:2.6rem 0 .2rem}.n{font-weight:400;color:var(--muted)}
-.flow{display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:0;list-style:none}
-.flow li{flex:1 1 8rem;padding:.7rem .8rem;border:1px solid var(--line);border-radius:10px;background:var(--card);margin:0}
-.flow a{text-decoration:none;color:var(--fg)}.flow b{display:block;font-size:1.6rem;line-height:1.1}.flow span{font-size:.85rem;color:var(--muted)}
+.flow{display:flex;margin:1.5rem 0;padding:0;list-style:none;border:1px solid var(--line);border-radius:10px;background:var(--card);overflow:hidden}
+.flow li{flex:1 1 0;min-width:0;margin:0;border-left:1px solid var(--line);position:relative}.flow li:first-child{border-left:0}
+.flow li:not(:last-child)::after{content:'';position:absolute;right:-.45rem;top:50%;width:.8rem;height:.8rem;margin-top:-.4rem;border-top:1px solid var(--line);border-right:1px solid var(--line);background:var(--card);transform:rotate(45deg);z-index:1}
+.flow a{display:block;padding:.7rem .8rem .7rem 1rem;text-decoration:none;color:var(--fg);min-height:44px}.flow a:hover{background:var(--bg)}.flow b{display:block;font-size:1.6rem;line-height:1.1}.flow span{font-size:.82rem;color:var(--muted)}
 .cta{margin-top:1.5rem;padding:1rem 1.2rem;border:1px solid var(--line);border-radius:10px;background:var(--card)}
-table{width:100%;border-collapse:collapse;font-size:.92rem}td,th{text-align:left;padding:.45rem .6rem .45rem 0;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--fg)}td{color:var(--muted);overflow-wrap:anywhere}td strong{color:var(--fg)}.k{font-size:.82rem}.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.92rem}td,th{text-align:left;padding:.45rem .6rem .45rem 0;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--fg)}td{color:var(--muted);overflow-wrap:break-word}td strong{color:var(--fg)}.k{font-size:.82rem}.tbl{overflow-x:auto}
+@media (max-width:600px){.flow a{padding:.5rem .55rem .5rem .35rem;font-size:.7rem;letter-spacing:-.01em}.flow span{display:none}.flow b{font-size:1.25rem}.flow li:not(:last-child)::after{width:.6rem;height:.6rem;margin-top:-.3rem;right:-.32rem}
+.tbl table,.tbl tbody{display:block}.tbl thead{position:absolute;left:-9999px}.tbl tr{display:block;padding:.6rem 0;border-bottom:1px solid var(--line)}
+.tbl td{display:block;padding:0;border:0}.tbl td.site{color:var(--fg)}.tbl td.repo{display:none}.tbl td.addr,.tbl td.date{display:inline;font-size:.88rem}.tbl td.addr::after{content:' \\00b7 '}}
 footer{margin-top:3rem;font-size:.85rem;color:var(--muted)}
 </style>
 </head>

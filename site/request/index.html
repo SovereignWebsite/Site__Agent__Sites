@@ -13,18 +13,20 @@
 <div class="mark"><a href="../">sites</a> / request</div>
 <h1>Ask for a new site</h1>
 <p>Tell us what the site is and what it should do. A sites agent files your request, and it joins <a href="../pipeline/">the pipeline</a> once it is in the Factory. Your request is sealed so only the sites agents can read it, and signed with your key. Questions rather than requests go on <a href="../send/">the send page</a>.</p>
+<h2 class="step"><span class="num">1</span> Your key</h2>
 <div class="box" id="req">
 <p id="who" role="status">Loading...</p>
 <p class="row"><button type="button" id="lock" class="quiet" hidden>Forget this key</button></p>
 <details id="addkey" open><summary>Add your key</summary>
 <p>Your key arrives as a QR code or a link from Dinis Cruz. Hold the QR code up to the camera, paste or drop the picture anywhere on this page, choose it as a file, or paste the link. Nothing is sent anywhere: the key stays in this browser.</p>
-<div class="row"><button type="button" id="cambtn" class="quiet">Scan with the camera</button>
-<label class="btn nomargin" for="qrfile">Choose the QR picture</label><input type="file" id="qrfile" accept="image/*" hidden></div>
+<div class="row"><button type="button" id="cambtn" class="cam">Scan with the camera</button>
+<label class="btn alt nomargin" for="qrfile">Choose the QR picture</label><input type="file" id="qrfile" accept="image/*" hidden></div>
 <video id="cam" hidden playsinline muted aria-label="Camera view for scanning your key"></video>
 <label for="keylink">Or paste the key link</label>
 <div class="row"><input type="text" id="keylink" autocomplete="off" spellcheck="false" class="grow"><button type="button" id="addbtn">Add key</button></div>
 </details></div>
-<form id="form" class="box" hidden>
+<h2 class="step"><span class="num">2</span> <span id="step2">Your request</span></h2>
+<form id="form" class="box off" inert>
 <label for="title">Site name</label>
 <input type="text" id="title" autocomplete="off">
 <label for="about">Who or what is it about?</label>

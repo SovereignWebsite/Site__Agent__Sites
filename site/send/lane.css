@@ -22,3 +22,12 @@ summary{cursor:pointer;font-weight:600}
 .dropping body{outline:3px dashed var(--accent);outline-offset:-8px}
 footer{margin-top:3rem;font-size:.85rem;color:var(--muted)}
 .nomargin{margin:0}.grow{flex:1 1 14rem}textarea.short{min-height:4.5rem}
+.mark a{display:inline-block;padding:.85rem .6rem .85rem 0;min-height:44px}
+h2.step{font-size:1.15rem;margin:2rem 0 .2rem;display:flex;align-items:center;gap:.6rem}
+.num{display:inline-flex;align-items:center;justify-content:center;width:1.7rem;height:1.7rem;border-radius:50%;background:var(--accent);color:#fff;font-size:.95rem}
+@media (prefers-color-scheme:dark){.num{color:#141413}}
+.box.off{opacity:.5}
+button.cam{background:none;color:var(--accent);border:1px solid var(--line)}
+label.btn.alt{background:var(--accent)}
+@media (pointer:coarse){button.cam{background:var(--accent);color:#fff;border:0}label.btn.alt{background:none;color:var(--accent);border:1px solid var(--line)}}
+@media (pointer:coarse) and (prefers-color-scheme:dark){button.cam{color:#141413}}

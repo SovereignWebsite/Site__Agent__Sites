@@ -1,15 +1,15 @@
 {
  "schema": "sws-pipeline/1",
  "made_by": "sites-pages.a@SovereignWebsite.dinis",
- "checked": "2026-11-25T00:09Z",
+ "checked": "2026-11-25T01:05Z",
  "source": "SovereignWebsite__IaC dev 6943ef7 and its work/* branches",
  "private_left_out": 6,
  "count": {
   "asked": 1,
   "approved": 1,
-  "building": 4,
-  "seeded": 37,
-  "live": 34
+  "building": 3,
+  "seeded": 36,
+  "live": 36
  },
  "sites": [
   {
@@ -37,19 +37,6 @@
    "address": "dinis-cruz.cv.sovereignweb.site",
    "branch": "dev",
    "http": 0
-  },
-  {
-   "stage": "building",
-   "folder": "2026-11-25__startup-grants",
-   "date": "2026-11-25",
-   "label": "startup-grants",
-   "group": "tool",
-   "title": "Startup grants in Europe and the UK",
-   "kind": "demo",
-   "repository": "Site__Tool__Startup-Grants",
-   "address": "startup-grants.tool.sovereignweb.site",
-   "branch": "dev",
-   "http": 503
   },
   {
    "stage": "building",
@@ -204,19 +191,6 @@
    "kind": "owner",
    "repository": "Site__Agent__Startups",
    "address": "startups.agents.sovereignweb.site",
-   "branch": "dev",
-   "http": 200
-  },
-  {
-   "stage": "seeded",
-   "folder": "2026-11-24__tauguard",
-   "date": "2026-11-24",
-   "label": "tauguard",
-   "group": "company",
-   "title": "TauGuard and RiskMandate: working together",
-   "kind": "owner",
-   "repository": "Site__Company__TauGuard",
-   "address": "tauguard.company.sovereignweb.site",
    "branch": "dev",
    "http": 200
   },
@@ -573,6 +547,19 @@
   },
   {
    "stage": "live",
+   "folder": "2026-11-25__startup-grants",
+   "date": "2026-11-25",
+   "label": "startup-grants",
+   "group": "tool",
+   "title": "Startup grants in Europe and the UK",
+   "kind": "demo",
+   "repository": "Site__Tool__Startup-Grants",
+   "address": "startup-grants.tool.sovereignweb.site",
+   "branch": "dev",
+   "http": 200
+  },
+  {
+   "stage": "live",
    "folder": "2026-11-24__crm",
    "date": "2026-11-24",
    "label": "crm",
@@ -594,6 +581,19 @@
    "kind": "owner",
    "repository": "Site__Organisation__Agentics-Foundation__London",
    "address": "london.agentics-foundation.organisation.sovereignweb.site",
+   "branch": "dev",
+   "http": 200
+  },
+  {
+   "stage": "live",
+   "folder": "2026-11-24__tauguard",
+   "date": "2026-11-24",
+   "label": "tauguard",
+   "group": "company",
+   "title": "TauGuard and RiskMandate: working together",
+   "kind": "owner",
+   "repository": "Site__Company__TauGuard",
+   "address": "tauguard.company.sovereignweb.site",
    "branch": "dev",
    "http": 200
   },
