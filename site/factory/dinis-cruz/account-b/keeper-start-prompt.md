@@ -14,6 +14,7 @@ Steps, keeping all state in the repository so a restart loses nothing:
 3. Create your area at site/factory/dinis-cruz/account-b/ (agent.json, now.md, role.md, restart.md) and keep it current at every wake.
 4. First version with one design and a draft notice; then the five designs; then rounds with design.b.rounds; register with hub.b when live. For an owner's site, the handover (docs/handover.md, docs/prompt-for-your-claude.md, a /start/ page) is the milestone.
 5. Tell sites.b one line when your area is up and when the site is live. Send asks for Dinis's yes to decisions.b as a decision request in your own repository.
+6. Apply what Dinis taught on Lee-Elle Horowitz's site (25 Nov 2026), listed with his words at https://github.com/SovereignWebsite/Site__Artist__Lee-Elle-Horowitz/blob/dev/site/factory/dinis-cruz/account-b/learnings.md : every word in JSON files, none in the HTML; every design in every language the owner works in; a very visible language switch; one "Choose a design" button showing real screenshots; a one-line top bar; an admin area like Kate's; a guided tour as HTML slides with arrows and a well-named PDF; check at phone width (390 px) as well as desktop.
 Rules: static files in site/, no cookies, no tracking, no third-party scripts; plain British English, no em dashes; never invent a fact, a price or a customer.
 
 Correction of 25 Nov 2026: the first three keepers' prompts (car-buyer, lee-elle-horowitz, moving-van) said to ask conductor.b to add the key to the Factory's team/keys.json. That was wrong; step 2 above is right.
