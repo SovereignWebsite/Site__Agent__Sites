@@ -20,6 +20,9 @@ if (!existsSync(join(IAC, 'build/requests.mjs'))) { console.error('usage: node t
 const F = await import(pathToFileURL(join(IAC, 'build/requests.mjs')).href);
 const git = (...a) => execFileSync('git', a, { cwd: IAC, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim();
 const SEED = 'This site was made by one request to the Sovereign Website pipeline.';
+// The agent seed (seed/agent-template/site/index.html) has no seed sentence: it is told by its visible text plus the key block (sites.a, 25 Nov 2026).
+const AGENT_SEED = ["A Sovereign Website (SWS) agent's own site; this agent keeps it.", 'An SWS agent', 'Reading key.json'];
+const isSeed = (t) => t.includes(SEED) || AGENT_SEED.every((x) => t.includes(x));
 const ORG = 'https://github.com/SovereignWebsite';
 
 // 1. Requests on dev.
@@ -53,7 +56,7 @@ async function page(host) {
   try {
     const r = await fetch(`https://${host}/`, { redirect: 'follow', signal: AbortSignal.timeout(15000) });
     const t = r.ok ? await r.text() : '';
-    return { code: r.status, seed: t.includes(SEED) };
+    return { code: r.status, seed: isSeed(t) };
   } catch { return { code: 0, seed: false }; }
 }
 const hidden = rows.filter((r) => r.access === 'vault').length;
