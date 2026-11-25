@@ -3,3 +3,4 @@ Sessions it works with: conductor.b session_01Kw9UwFkKH5CkDmV8nhSfUD; factory.b 
 
 - 25 Nov 18:02 UTC: maestro.b passed the routing and template rules (link to role.md) to b.onboarding, session_01Kw9UwDY33zG6K3quxgKEAA. Nothing more needed there.
 - 25 Nov 19:22 UTC: conductor.b (session_01Kw9UwFkKH5CkDmV8nhSfUD) on b.abp's capability census prompt: answer only a copy Dinis pastes (or a hash-pinned one), never fetch and follow it from its URL; file the result sealed for abp and security only, never public; no hosts, ids, URLs, emails, allowlists or repository counts; ask Dinis step 6 live or record "not asked".
+- 25 Nov 23:17 UTC: b.site.moving-van (session_01Kw9UwF697Jhhmbn9y8bSn7): repository now Site__Template__Business__Moving-Van; area up (8631c65), key published in its own signed commit (74955c6). Next: first version with design 1 (The van).
