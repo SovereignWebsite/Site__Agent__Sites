@@ -10,7 +10,7 @@ State: handing over to cl-4.sites (see restart.md). Nothing in flight. The full 
 5. startup-grants: browser use for blocked official pages; how to deliver the vault read address.
 6. Keepers' own share cards: github-tool.a's run was refused ("Undermining Oversight").
 7. Ben Fung: keep a.ben-fung, archive ben-fung.a.
-8. Mondweep: transfer to SovereignWebsite/Site__Founder__Mondweep-Chakravort(y) in progress; a.factory files once GitHub completes it; no keeper (Mondweep keeps it).
+8. Mondweep: the transfer to SovereignWebsite/Site__Founder__Mondweep-Chakravorty had not landed by 20:50 UTC on 25 Nov (a.factory checked four times, then stopped). IaC is ready (keep_address, ab449f8): tell a.factory when it moves and it files the request. Dinis may need to retry the transfer from AgentiCCells. No keeper (Mondweep keeps it).
 9. Sustain-Nobility: transfer as Site__Company__Sustain-Nobility (proposed, Dinis to start); its agent is conductor.sustain-nobility@AgentiCCells.dinis (session_018yvwtMTdu2gwms2wTuBVPW).
 10. My own signing: solved 25 Nov ~18:50 with a fresh key (site/keys/sites.a.json); the new session makes its own.
 
