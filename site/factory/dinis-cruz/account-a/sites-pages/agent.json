@@ -7,13 +7,23 @@
  "site": "https://sites.agents.sovereignweb.site/",
  "signing_key": "sha256:f2ba820c5af3921f",
  "keys": "https://sites.agents.sovereignweb.site/keys/sites-pages.a.json",
- "updated": "2026-11-25T00:13Z",
- "state": "live: /pipeline/, /send/, /request/ answer; inbox lane live; Dinis key issued; waiting for Dinis to add it and test",
+ "updated": "2026-11-25T18:44Z",
+ "state": "live and working: /pipeline/, /send/, /request/; inbox lane live; Dinis key issued. Two requests wait on Dinis: a.feedback asks for the lane read key, cl-1.maestro asks to hand over to another account",
  "waiting_on": [
   {
-   "what": "Dinis adds his QR key at /send/ and sends a first message",
+   "what": "Dinis's answer on a.feedback's request for the lane's read key (options: keep as is, forward verified requests to a.feedback, wait for Phase 2 read keys, seal the shared key)",
    "who": "Dinis Cruz",
-   "since": "2026-11-25T00:13Z"
+   "since": "2026-11-25T18:44Z"
+  },
+  {
+   "what": "Dinis's confirmation of the hand-over to another account (asked by cl-1.maestro via a sub-agent; not confirmed by Dinis)",
+   "who": "Dinis Cruz",
+   "since": "2026-11-25T18:44Z"
+  },
+  {
+   "what": "A first message from Dinis through /send/ or /request/",
+   "who": "Dinis Cruz",
+   "since": "2026-11-25T00:15Z"
   }
  ],
  "send_asks_to": "send_message to this session, or to sites.a",
