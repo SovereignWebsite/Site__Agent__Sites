@@ -1,15 +1,15 @@
 {
  "schema": "sws-pipeline/1",
  "made_by": "sites-pages.a@SovereignWebsite.dinis",
- "checked": "2026-11-25T01:05Z",
- "source": "SovereignWebsite__IaC dev 6943ef7 and its work/* branches",
+ "checked": "2026-11-25T01:38Z",
+ "source": "SovereignWebsite__IaC dev 28416a8 and its work/* branches",
  "private_left_out": 6,
  "count": {
   "asked": 1,
   "approved": 1,
-  "building": 3,
+  "building": 6,
   "seeded": 36,
-  "live": 36
+  "live": 37
  },
  "sites": [
   {
@@ -37,6 +37,45 @@
    "address": "dinis-cruz.cv.sovereignweb.site",
    "branch": "dev",
    "http": 0
+  },
+  {
+   "stage": "building",
+   "folder": "2026-11-25__apple",
+   "date": "2026-11-25",
+   "label": "apple",
+   "group": "platform",
+   "title": "Apple as a platform (unofficial)",
+   "kind": "demo",
+   "repository": "Site__Platform__Apple",
+   "address": "apple.platform.sovereignweb.site",
+   "branch": "dev",
+   "http": 503
+  },
+  {
+   "stage": "building",
+   "folder": "2026-11-25__calendar",
+   "date": "2026-11-25",
+   "label": "calendar",
+   "group": "tool",
+   "title": "Google Calendar tool",
+   "kind": "demo",
+   "repository": "Site__Tool__Google__Calendar",
+   "address": "calendar.google.tool.sovereignweb.site",
+   "branch": "dev",
+   "http": 503
+  },
+  {
+   "stage": "building",
+   "folder": "2026-11-25__domain-registrars",
+   "date": "2026-11-25",
+   "label": "domain-registrars",
+   "group": "services",
+   "title": "Domain registrars: how buying a domain works, and the good options",
+   "kind": "demo",
+   "repository": "Site__Services__Domain-Registrars",
+   "address": "domain-registrars.services.sovereignweb.site",
+   "branch": "dev",
+   "http": 503
   },
   {
    "stage": "building",
@@ -542,6 +581,19 @@
    "kind": "owner",
    "repository": "Site__Agent__Sites",
    "address": "sites.agents.sovereignweb.site",
+   "branch": "dev",
+   "http": 200
+  },
+  {
+   "stage": "live",
+   "folder": "2026-11-25__github",
+   "date": "2026-11-25",
+   "label": "github",
+   "group": "tool",
+   "title": "GitHub in the browser (unofficial)",
+   "kind": "demo",
+   "repository": "Site__Tool__GitHub",
+   "address": "github.tool.sovereignweb.site",
    "branch": "dev",
    "http": 200
   },

@@ -100,6 +100,20 @@ const html = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Site pipeline</title>
 <meta name="description" content="Every Sovereign Website request and where it stands: asked, approved, building, seeded or live.">
+<meta property="og:title" content="Site pipeline">
+<meta property="og:description" content="Every Sovereign Website request and where it stands: asked, approved, building, seeded or live.">
+<meta property="og:url" content="https://sites.agents.sovereignweb.site/pipeline/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sovereign Website agents' sites">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://sites.agents.sovereignweb.site/assets/share/card-1200x630.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sovereign Website agents' sites">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Site pipeline">
+<meta name="twitter:description" content="Every Sovereign Website request and where it stands: asked, approved, building, seeded or live.">
+<meta name="twitter:image" content="https://sites.agents.sovereignweb.site/assets/share/card-1200x630.jpg">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
 <style>
 :root{--bg:#f7f7f5;--fg:#1d1d1b;--muted:#5f5f5a;--line:#deded8;--card:#fff;--accent:#0b5cad}
