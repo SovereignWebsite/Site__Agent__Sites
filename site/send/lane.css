@@ -31,3 +31,6 @@ button.cam{background:none;color:var(--accent);border:1px solid var(--line)}
 label.btn.alt{background:var(--accent)}
 @media (pointer:coarse){button.cam{background:var(--accent);color:#fff;border:0}label.btn.alt{background:none;color:var(--accent);border:1px solid var(--line)}}
 @media (pointer:coarse) and (prefers-color-scheme:dark){button.cam{color:#141413}}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+#qrfile:focus-visible+label.btn{outline:3px solid var(--accent);outline-offset:2px}
+@media (pointer:coarse){#qrfile:focus-visible+label.btn{outline-color:var(--fg)}}

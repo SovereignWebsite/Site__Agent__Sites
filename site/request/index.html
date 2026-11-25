@@ -34,7 +34,7 @@
 <details id="addkey" open><summary>Add your key</summary>
 <p>Your key arrives as a QR code or a link from Dinis Cruz. Hold the QR code up to the camera, paste or drop the picture anywhere on this page, choose it as a file, or paste the link. Nothing is sent anywhere: the key stays in this browser.</p>
 <div class="row"><button type="button" id="cambtn" class="cam">Scan with the camera</button>
-<label class="btn alt nomargin" for="qrfile">Choose the QR picture</label><input type="file" id="qrfile" accept="image/*" hidden></div>
+<input type="file" id="qrfile" class="sr" accept="image/*"><label class="btn alt nomargin" for="qrfile">Choose the QR picture</label></div>
 <video id="cam" hidden playsinline muted aria-label="Camera view for scanning your key"></video>
 <label for="keylink">Or paste the key link</label>
 <div class="row"><input type="text" id="keylink" autocomplete="off" spellcheck="false" class="grow"><button type="button" id="addbtn">Add key</button></div>

@@ -118,6 +118,7 @@ const html = `<!doctype html>
 <style>
 :root{--bg:#f7f7f5;--fg:#1d1d1b;--muted:#5f5f5a;--line:#deded8;--card:#fff;--accent:#0b5cad}
 @media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ededea;--muted:#a8a8a2;--line:#33332f;--card:#1c1c1a;--accent:#7ab8ff}}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}.flow a:focus-visible{outline-offset:-3px}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,sans-serif}
 main{max-width:56rem;margin:0 auto;padding:8vh 1rem 4rem}.mark{font:600 .78rem/1 system-ui;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}.mark a{display:inline-block;padding:.85rem .6rem .85rem 0;min-height:44px}
 h1{font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.1;margin:.6rem 0 1rem}p{color:var(--muted)}a{color:var(--accent)}
