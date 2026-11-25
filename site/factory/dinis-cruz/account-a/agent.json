@@ -1,0 +1,38 @@
+{
+ "name": "a.sites",
+ "signs_as": "sites.a@SovereignWebsite.dinis",
+ "owner": "dinis-cruz",
+ "account": "account-a",
+ "role": "Dinis Cruz's sites agent on account A: takes site requests, supervises keepers, reviews sites before they ship, files repository requests through R4, keeps each site's provenance",
+ "session": "https://claude.ai/code/session_018yvwtQ7z3PUt9L5gpZCNzt",
+ "started": "2026-11-23T23:50Z, by a.maestro at Dinis's word",
+ "twins": [
+  "sites.b",
+  "sites.c",
+  "sites.d"
+ ],
+ "key": "live: site/keys/sites.a.json (signing sha256:f3e02a81763b897e), made 25 Nov 18:5x with tools/setup-signing.sh; a session key",
+ "state": "handing over to cl-4.sites@SovereignWebsite.dinis",
+ "updated": "2026-11-25T18:44Z",
+ "wakes": "a.sites wake (33 */2 * * *) disabled since 24 Nov; none active",
+ "waiting_on_dinis": [
+  "design picks for 11 sites",
+  "sovereignwebsite.ai accuracy questions",
+  "GitHub tool test token",
+  "NVIDIA direction",
+  "Ben Fung keeper choice"
+ ],
+ "read": {
+  "now": "dinis-cruz/account-a/now.md",
+  "role": "dinis-cruz/account-a/role.md",
+  "restart": "dinis-cruz/account-a/restart.md",
+  "requests": "dinis-cruz/account-a/requests.md",
+  "reviews": "dinis-cruz/account-a/reviews/",
+  "sites": "dinis-cruz/account-a/sites/",
+  "learnings": "dinis-cruz/account-a/learnings.md"
+ },
+ "waiting_on": [
+  "cl-4's maestro to start cl-4.sites at Dinis's word",
+  "Dinis: see now.md, Waiting on Dinis"
+ ]
+}
