@@ -7,11 +7,14 @@
  "site": "https://sites.agents.sovereignweb.site/",
  "signing_key": "sha256:f2ba820c5af3921f",
  "keys": "https://sites.agents.sovereignweb.site/keys/sites-pages.a.json",
- "updated": "2026-11-24T23:59Z",
- "state": "starting: key made and published; pages not yet built",
+ "updated": "2026-11-25T00:01Z",
+ "state": "building: /pipeline/ built from tools/pipeline.mjs; /send/ and /request/ waiting on the Chiswick lane source",
  "waiting_on": [
-  {"what": "Permission to read SovereignWebsite/Site__Organisation__Chiswick-Cheese-Market (the lane to copy); add_repo was refused by the session's permission check", "who": "Dinis Cruz", "since": "2026-11-24T23:59Z"},
-  {"what": "tools/pipeline.mjs", "who": "sites.a (by message)", "since": "2026-11-24T23:59Z"}
+  {
+   "what": "Permission to read SovereignWebsite/Site__Organisation__Chiswick-Cheese-Market (the lane to copy); add_repo was refused by the session's permission check",
+   "who": "Dinis Cruz",
+   "since": "2026-11-24T23:59Z"
+  }
  ],
  "send_asks_to": "send_message to this session, or to sites.a"
 }
