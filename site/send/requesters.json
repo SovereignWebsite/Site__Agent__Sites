@@ -1,4 +1,27 @@
 {
- "about": "The people whose QR keys are allowed to write to the sites agents. Filled by tools/person-key.mjs when Dinis Cruz names and approves each one.",
- "keys": []
+  "about": "The people whose QR keys are allowed to write to the sites agents. Filled by tools/person-key.mjs when Dinis Cruz names and approves each one.",
+  "keys": [
+    {
+      "person": "dinis",
+      "fingerprint": "sha256:b270b4f7dad07640",
+      "signing_fingerprint": "sha256:513b78e6e6e9910b",
+      "status": "active",
+      "issued_by": "sites-pages.a@SovereignWebsite.dinis",
+      "session": "https://claude.ai/code/session_018yvwtPxpt5EDqNmEgLwpKV",
+      "issued_at": "2026-11-25T00:13:38Z",
+      "valid": "while the issuing session lives",
+      "encrypt": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "NAfoLkcs3vd4EmYApMRsranjEZVvOs-OyoCVP8oNv3Q",
+        "y": "nccvlX_HJSc4EmHsGtNQj67e6phcY9m2CTn1rwfGXLY"
+      },
+      "sign": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "_Q9zThVd3cC3noDaEASFP0WtkqS0X2svcIh03Unz2zc",
+        "y": "XhrBVspba4uS5d3PD4bgTsyZpkoICUKx5QZU_s_Tr1U"
+      }
+    }
+  ]
 }

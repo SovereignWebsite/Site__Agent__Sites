@@ -7,13 +7,13 @@
  "site": "https://sites.agents.sovereignweb.site/",
  "signing_key": "sha256:f2ba820c5af3921f",
  "keys": "https://sites.agents.sovereignweb.site/keys/sites-pages.a.json",
- "updated": "2026-11-25T00:11Z",
- "state": "pages and tools built and pushed to dev; drain tested; the Pages deploy fails on GitHub (\"Deployment failed, try again later\", runs 46-48); QR keys wait for the pages to be live",
+ "updated": "2026-11-25T00:13Z",
+ "state": "live: /pipeline/, /send/, /request/ answer; inbox lane live; Dinis key issued; waiting for Dinis to add it and test",
  "waiting_on": [
   {
-   "what": "A successful Pages deploy (three runs failed at GitHub's deployment step)",
-   "who": "GitHub / sites.a / Dinis",
-   "since": "2026-11-25T00:08Z"
+   "what": "Dinis adds his QR key at /send/ and sends a first message",
+   "who": "Dinis Cruz",
+   "since": "2026-11-25T00:13Z"
   }
  ],
  "send_asks_to": "send_message to this session, or to sites.a",
@@ -29,5 +29,12 @@
    "at": "2026-11-25T00:11Z",
    "what": "vault key and enum key, signed by my key, appended to maestro.a-account-a inbox (vault fbefxkfo)"
   }
- }
+ },
+ "requesters": [
+  {
+   "person": "dinis",
+   "fingerprint": "sha256:b270b4f7dad07640",
+   "issued": "2026-11-25T00:13Z"
+  }
+ ]
 }
