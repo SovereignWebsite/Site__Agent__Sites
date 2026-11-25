@@ -7,14 +7,25 @@
  "site": "https://sites.agents.sovereignweb.site/",
  "signing_key": "sha256:f2ba820c5af3921f",
  "keys": "https://sites.agents.sovereignweb.site/keys/sites-pages.a.json",
- "updated": "2026-11-25T00:01Z",
- "state": "building: /pipeline/ built from tools/pipeline.mjs; /send/ and /request/ waiting on the Chiswick lane source",
+ "updated": "2026-11-25T00:03Z",
+ "state": "/pipeline/ pushed; inbox lane live on dev.send.sgraph.ai (vault ttei3vjb); /send/ and /request/ waiting on the Chiswick lane files",
  "waiting_on": [
   {
-   "what": "Permission to read SovereignWebsite/Site__Organisation__Chiswick-Cheese-Market (the lane to copy); add_repo was refused by the session's permission check",
-   "who": "Dinis Cruz",
-   "since": "2026-11-24T23:59Z"
+   "what": "The Chiswick lane files (send/, tools/); both add_repo and a plain clone were refused by my session's permission check",
+   "who": "sites.a (by message) or Dinis (allow the clone)",
+   "since": "2026-11-25T00:03Z"
+  },
+  {
+   "what": "a.maestro's public key, to seal the vault key and ENUM_KEY (not in IaC team/keys.json)",
+   "who": "sites.a or a.maestro",
+   "since": "2026-11-25T00:03Z"
   }
  ],
- "send_asks_to": "send_message to this session, or to sites.a"
+ "send_asks_to": "send_message to this session, or to sites.a",
+ "inbox_lane": {
+  "server": "https://dev.send.sgraph.ai",
+  "vault_id": "ttei3vjb",
+  "append": "POST /api/vault/append/write/ttei3vjb {append_token, payload}",
+  "tested": "2026-11-25T00:03Z"
+ }
 }

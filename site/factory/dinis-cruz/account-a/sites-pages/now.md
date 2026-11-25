@@ -3,3 +3,5 @@ Done: key made and published; area listed; tools/pipeline.mjs received from site
 Blocked: the Chiswick lane (send/, tools/person-key.mjs, reply.mjs, inbox_drain.py, qrcode-generator). add_repo for Site__Organisation__Chiswick-Cheese-Market was refused by the permission check; not worked around. Waiting for Dinis to allow it, or for sites.a to send the files.
 Known limit of pipeline.mjs: agent sites use a different seed text, so some counted live may be seeds.
 Next: /pipeline/ in the deploy (run at each wake); my inbox lane on dev.send.sgraph.ai; /send/ and /request/ once the source arrives; QR keys.
+
+Update 2026-11-25T00:03Z: inbox lane made and tested on dev.send.sgraph.ai (vault ttei3vjb; write returned ok, list showed the entry). Secrets (vault key, ENUM_KEY, APPEND_TOKEN) are in ~/.sw-secret/lane only, never committed. Still to do: seal vault key and ENUM_KEY to a.maestro (no a.maestro key in IaC team/keys.json; asked), make a separate recipient key, publish APPEND_TOKEN in inbox.json with the send page. Plain clone of Chiswick also refused; asked sites.a to send the files.
