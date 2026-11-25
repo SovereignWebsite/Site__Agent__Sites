@@ -1,15 +1,15 @@
 {
  "schema": "sws-pipeline/1",
  "made_by": "sites-pages.a@SovereignWebsite.dinis",
- "checked": "2026-11-25T01:38Z",
- "source": "SovereignWebsite__IaC dev 28416a8 and its work/* branches",
+ "checked": "2026-11-25T04:26Z",
+ "source": "SovereignWebsite__IaC dev 0ce9bb5 and its work/* branches",
  "private_left_out": 6,
  "count": {
   "asked": 1,
   "approved": 1,
-  "building": 6,
+  "building": 8,
   "seeded": 36,
-  "live": 37
+  "live": 39
  },
  "sites": [
   {
@@ -74,6 +74,32 @@
    "kind": "demo",
    "repository": "Site__Services__Domain-Registrars",
    "address": "domain-registrars.services.sovereignweb.site",
+   "branch": "dev",
+   "http": 503
+  },
+  {
+   "stage": "building",
+   "folder": "2026-11-25__nvidia",
+   "date": "2026-11-25",
+   "label": "nvidia",
+   "group": "platform",
+   "title": "NVIDIA hosted models from the browser",
+   "kind": "demo",
+   "repository": "Site__Platform__NVIDIA",
+   "address": "nvidia.platform.sovereignweb.site",
+   "branch": "dev",
+   "http": 503
+  },
+  {
+   "stage": "building",
+   "folder": "2026-11-25__one-human-nine-agents",
+   "date": "2026-11-25",
+   "label": "one-human-nine-agents",
+   "group": "author",
+   "title": "One Human, Nine Agents, Nineteen Hours",
+   "kind": "owner",
+   "repository": "Site__Author__Dinis__One-Human-Nine-Agents",
+   "address": "one-human-nine-agents.dinis.author.sovereignweb.site",
    "branch": "dev",
    "http": 503
   },
@@ -594,6 +620,32 @@
    "kind": "demo",
    "repository": "Site__Tool__GitHub",
    "address": "github.tool.sovereignweb.site",
+   "branch": "dev",
+   "http": 200
+  },
+  {
+   "stage": "live",
+   "folder": "2026-11-25__oscar",
+   "date": "2026-11-25",
+   "label": "oscar",
+   "group": "sport",
+   "title": "Oscar, padel coach",
+   "kind": "owner",
+   "repository": "Site__Sport__Padel__Oscar",
+   "address": "oscar.padel.sport.sovereignweb.site",
+   "branch": "dev",
+   "http": 200
+  },
+  {
+   "stage": "live",
+   "folder": "2026-11-25__puter",
+   "date": "2026-11-25",
+   "label": "puter",
+   "group": "platform",
+   "title": "Puter: LLMs from the browser",
+   "kind": "demo",
+   "repository": "Site__Platform__Puter",
+   "address": "puter.platform.sovereignweb.site",
    "branch": "dev",
    "http": 200
   },
