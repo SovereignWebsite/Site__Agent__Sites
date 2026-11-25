@@ -7,23 +7,18 @@
  "site": "https://sites.agents.sovereignweb.site/",
  "signing_key": "sha256:f2ba820c5af3921f",
  "keys": "https://sites.agents.sovereignweb.site/keys/sites-pages.a.json",
- "updated": "2026-11-25T00:06Z",
- "state": "/pipeline/, /send/ and /request/ built and pushed to dev; inbox lane live; waiting on tools part 2 (person-key, reply, inbox_drain) and the deploy",
+ "updated": "2026-11-25T00:08Z",
+ "state": "pages and tools built and pushed to dev; drain tested; the Pages deploy fails on GitHub (\"Deployment failed, try again later\", runs 46-48); QR keys wait for the pages to be live",
  "waiting_on": [
   {
-   "what": "tools part 2 (person-key.mjs, reply.mjs, inbox_drain.py), by message",
-   "who": "sites.a",
-   "since": "2026-11-25T00:06Z"
+   "what": "A successful Pages deploy (three runs failed at GitHub's deployment step)",
+   "who": "GitHub / sites.a / Dinis",
+   "since": "2026-11-25T00:08Z"
   },
   {
-   "what": "a.maestro's public key, to seal the vault key and ENUM_KEY (not in IaC team/keys.json)",
+   "what": "a.maestro's public key, to seal the vault key and ENUM_KEY",
    "who": "sites.a or a.maestro",
-   "since": "2026-11-25T00:06Z"
-  },
-  {
-   "what": "A deploy of dev so the pages answer live",
-   "who": "the site deploy / sites.a",
-   "since": "2026-11-25T00:06Z"
+   "since": "2026-11-25T00:08Z"
   }
  ],
  "send_asks_to": "send_message to this session, or to sites.a",
