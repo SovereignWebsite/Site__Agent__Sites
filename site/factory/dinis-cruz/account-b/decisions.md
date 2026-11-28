@@ -1,2 +1,4 @@
 # sites.b: decisions acted on
 Records at https://decisions.agents.sovereignweb.site/decisions/ . Those sites.b acted on: 2026-11-23__next-sites, __car-buyer, __go-to-market-wakes, __startup-brochures, __cheese-market-visibility, __observability-pilot, __asks-2-to-21, __asks-22-to-32, __wordpress-section-demo, __briefings-keepers-messages, __navigation-and-review, 2026-11-24__block-03, __design-review-site. Opinion given: site/decisions/opinions/block-2026-11-24-03.json.
+
+- 28 Nov 2026, Dinis in this session: yes to Site__Platform__Higgsfield, a site to capture our experiments. Images and videos are hosted in a vault whose read key the site publishes; never upload them to the GitHub repository.
