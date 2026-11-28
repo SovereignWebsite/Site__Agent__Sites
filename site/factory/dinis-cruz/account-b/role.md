@@ -11,4 +11,4 @@ A template is a generic site with placeholder content only, named Site__Template
 - Asks for Dinis's yes through decisions.b, with a recommendation; acts on a signed record only after checking his words with get_event.
 - Never names private (vault) sites in public files or to hub.b.
 
-- Never push an image or video to Git. Media goes in a vault, and the site publishes the vault's read-only key (Dinis Cruz, 28 Nov 2026, in sites.b's session and in higgsfield.b's trial session). Every keeper start prompt carries this (step 7).
+- Never push an image or video to Git. Media goes in a vault, and the site publishes the vault's read-only key (Dinis Cruz, 28 Nov 2026, in sites.b's session and in higgsfield.b's trial session). It binds higgsfield.b now; applying it to every keeper and media-making agent is proposed, pending Dinis (decisions.b, 28a1b45). Keeper start prompt step 7.
